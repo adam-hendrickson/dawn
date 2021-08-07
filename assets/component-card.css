@@ -287,3 +287,57 @@
     transition: background-color var(--duration-long) ease;
   }
 }
+
+.color__picker {
+  position: absolute;
+  z-index: 99;
+  align-self: center;
+  left: 0px;
+  bottom: -27.55px;
+  width: 5rem;
+}
+
+.color__picker select {
+  width: 8rem;
+}
+.color__thumb__picker {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.picker__options {
+  display: flex;
+}
+
+.picker__options input:hover {
+  cursor: pointer;
+  border: 2px solid darkslategray;
+
+}
+
+.picker__options input {
+  margin: 1.5px 1.5px 0px 2.5px;
+  padding: 6px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid lightgrey;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+
+}
+
+.picker__options input:checked {
+  border: 2px solid darkslategray;
+}

@@ -14,6 +14,28 @@
 {% endcomment %}
 
 <div class="card-wrapper">
+  <div class="color__picker">
+    {%- unless product_card_product.has_only_default_variant -%}    
+      {%- for option in product_card_product.options_with_values -%}
+        {% if option.name == 'Color' %}
+        <div class="picker__options">
+          {% comment %} <legend class="form__label">{{ option.name }}</legend> {% endcomment %}
+          {%- for value in option.values -%}
+            <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
+                  name="{{ option.name }}"
+                  value="{{ value | escape }}"
+                  form="product-form-{{ section.id }}"
+                  {% if option.selected_value == value %}checked{% endif %}
+            >
+            {% comment %} <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
+              {{ value }}
+            </label> {% endcomment %}
+          {%- endfor -%}
+        </div>
+      {% endif %}
+          {%- endfor -%}
+    {%- endunless -%}
+  </div>
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
 
@@ -65,6 +87,7 @@
                 height="{{ product_card_product.media[1].height }}"
                 >
               {%- endif -%}
+              
             </div>
           </div>
         {%- else -%}
