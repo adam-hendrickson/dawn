@@ -36,6 +36,9 @@
 
 # Product Pages (franky's mockup)
 - ### Image grid
+    - Top row: 2(3x5)
+    - Bottom row: 1(5x3) - 1(2x3)
+    - Large image on the right: 1(2x1)
 - ### Info
     - Product Name/Title
     - Model (SKU)
