@@ -52,4 +52,6 @@
     - Specs/Metafields Table
     - Extra lifestyle/content image
 
-# Home Page
+- # Home Page
+- (...)
+    - Banner image with margin?
