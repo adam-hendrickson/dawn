@@ -1,13 +1,13 @@
 # Home Page
 
 # Navigation
-- Sub navigation on top
+- ### Sub navigation on top
     - Learn to play
     - Artists 
     - Ambassadors 
     - Blog/New
 
-- Main Navigation
+- ### Main Navigation
     - USA Made
     - Ukelele
     - UBass
@@ -17,7 +17,7 @@
     - Apparel
     - Sale/Deals
 
-- Icons 
+- ### Icons 
     - Map (find dealers)
     - Person (profile)
     - Heart (wishlist/favorites)
@@ -25,11 +25,11 @@
     - Magnifying glass (search)
 
 # Search Results/Categories/Filter page (replacing collections)
-- Results Section
-- Filters section
+- ### Results Section
+- ### Filters section
 # Product Pages (franky's mockup)
-- Image grid
-- Info
+- ### Image grid
+- ### Info
     - Product Name/Title
     - Model (SKU)
     - Price and or sale price
