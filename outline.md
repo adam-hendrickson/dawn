@@ -22,9 +22,17 @@
     - Shopping bag (cart)
     - Magnifying glass (search)
 
-# Search Results/Categories/Filter page (replacing collections)
+# Search Results/Collections page
 - ### Results Section
-- ### Filters section
+    - Results cards
+    - Options selectors (if applicable) on result card?
+
+- ### Filters/Sidebar section
+    - Collections(?)
+    - Size
+    - Top & Side Material
+    - EQ
+    - Color
 # Product Pages (franky's mockup)
 - ### Image grid
 - ### Info

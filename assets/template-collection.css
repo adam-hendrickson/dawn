@@ -190,7 +190,8 @@
   align-items: center;
   align-self: flex-start;
   grid-column: 1;
-  grid-row: 1;
+  grid-row: auto;
+  flex-direction: column;
   display: flex;
   flex-wrap: wrap;
 }
