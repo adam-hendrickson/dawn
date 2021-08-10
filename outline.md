@@ -25,7 +25,7 @@
 # Search Results/Collections page
 - ### Results Section
     - Results cards
-    - Options selectors (if applicable) on result card?
+    - Options selectors (if applicable) on result card (color)?
 
 - ### Filters/Sidebar section
     - Collections(?)
@@ -33,6 +33,7 @@
     - Top & Side Material
     - EQ
     - Color
+
 # Product Pages (franky's mockup)
 - ### Image grid
 - ### Info
@@ -43,6 +44,7 @@
     - Option 2 Selecor (if applicable)
     - Add to bag/cart button
     - Add to favorites button(?)
+    - Quantity Selector
     - Product web copy
     - Specs/Metafields Table
     - Extra lifestyle/content image
