@@ -117,7 +117,7 @@
                 </div>
               </details>
             </div>
-          {% comment %} {%- when 'quantity_selector' -%}
+          {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
                 {{ 'products.product.quantity.label' | t }}
@@ -140,7 +140,7 @@
                   {% render 'icon-plus' %}
                 </button>
               </quantity-input>
-            </div> {% endcomment %}
+            </div>
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.link_label | default: block.settings.page.title }}</button>
