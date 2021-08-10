@@ -1,5 +1,3 @@
-# Home Page
-
 # Navigation
 - ### Sub navigation on top
     - Learn to play
@@ -40,3 +38,5 @@
     - Product web copy
     - Specs/Metafields Table
     - Extra lifestyle/content image
+
+# Home Page
