@@ -1,5 +1,4 @@
 # Kala Web Redesign Project Outline
-=========================================
 
 ## Navigation
 - ### Sub navigation on top
