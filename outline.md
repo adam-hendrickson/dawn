@@ -1,4 +1,7 @@
-# Navigation
+# Kala Web Redesign Project Outline
+=========================================
+
+## Navigation
 - ### Sub navigation on top
     - Learn to play
     - Artists 
@@ -22,7 +25,7 @@
     - Shopping bag (cart)
     - Magnifying glass (search)
 
-# Search Results/Collections page
+## Search Results/Collections page
 - ### Results Section
     - Results cards
     - Options selectors (if applicable) on result card (color)?
@@ -34,7 +37,7 @@
     - EQ
     - Color
 
-# Product Pages (franky's mockup)
+## Product Pages (franky's mockup)
 - ### Image grid
     - Top row: 2(3x5)
     - Bottom row: 1(5x3) - 1(2x3)
@@ -52,6 +55,6 @@
     - Specs/Metafields Table
     - Extra lifestyle/content image
 
-- # Home Page
+## Home Page
 - (...)
     - Banner image with margin?
