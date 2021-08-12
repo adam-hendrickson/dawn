@@ -5,6 +5,8 @@
     "colors_accent_2": "#354659",
     "colors_outline_button_labels": "#354659",
     "colors_background_2": "#eeeeee",
+    "type_header_font": "helvetica_n4",
+    "type_body_font": "helvetica_n4",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
